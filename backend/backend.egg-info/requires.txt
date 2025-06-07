@@ -1,0 +1,8 @@
+fastapi[standard]>=0.115.12
+beautifulsoup4>=4.12.2
+python-dotenv>=1.0.1
+openai>=1.14.3
+playwright>=1.52.0
+gpt4all>=1.0.1
+langchain>=0.0.185
+transformers>=4.35.0

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: backend
+Version: 0.1.0
+Summary: Orchids-challenge backend: HTML/CSS extraction + LLM site cloning
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi[standard]>=0.115.12
+Requires-Dist: beautifulsoup4>=4.12.2
+Requires-Dist: python-dotenv>=1.0.1
+Requires-Dist: openai>=1.14.3
+Requires-Dist: playwright>=1.52.0
+Requires-Dist: gpt4all>=1.0.1
+Requires-Dist: langchain>=0.0.185
+Requires-Dist: transformers>=4.35.0

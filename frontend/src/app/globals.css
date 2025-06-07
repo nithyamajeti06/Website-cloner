@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  background-color: #170f2a;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  background-image: radial-gradient(rgba(67, 67, 247, 0.366) 1px, transparent 1px);
+  background-size: 30px 30px;
+  background-color: #141c2f;
+}
+
+@keyframes blobAnimation {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(100px, 80px) scale(1.2);
+  }
+  66% {
+    transform: translate(-50px, 120px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+@keyframes clonePulse {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
+
